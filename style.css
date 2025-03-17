@@ -1,1 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
 
+.image-text-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.item {
+    margin: 0 15px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.item img:hover {
+    transform: scale(1.1);
+}
+
+.item p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.main-display img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.main-display p {
+    font-size: 18px;
+    color: #333;
+}
