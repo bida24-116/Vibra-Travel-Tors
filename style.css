@@ -45,7 +45,7 @@ body {
 }
 
 .see-more {
-    display: block;
+    display: inline-block;
     margin: 10px auto;
     padding: 8px 20px;
     background-color: #007bff;
