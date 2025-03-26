@@ -23,7 +23,7 @@ body {
 }
 
 .image-item {
-    position: absolute;
+    position: relative;
     border-radius: 8px;
     overflow: hidden;
     cursor: pointer;
@@ -72,10 +72,6 @@ body {
     height: 100%;
     object-fit: contain;
     border-radius: 8px;
-}
-
-.image-item:active .additional-images {
-    display: flex;
 }
 
 .image-item:hover {
