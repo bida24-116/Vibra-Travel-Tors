@@ -23,7 +23,7 @@ body {
 }
 
 .image-item {
-    position: relative;
+    position: absolute;
     border-radius: 8px;
     overflow: hidden;
     cursor: pointer;
